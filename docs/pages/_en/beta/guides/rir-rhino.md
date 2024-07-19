@@ -14,18 +14,18 @@ When working with Rhino, having Rhino open on the side to see the geometry and p
 
 ## Import Rhino Files into Revit
 
-The **Import 3DM File** is a quick method to import Rhino elements into a project or create a Family file from a Rhino model.  This also hmay be a good way to read in other filre formats into Rhino and then into Revit to help translate models into Revit.
+The **Import 3DM File** is a quick method to import Rhino elements into a project or create a Family file from a Rhino model.  This also may be a good way to read in other file formats into Rhino and then into Revit to help translate models into Revit.
 
 There are two methods of import.
 
-1. Import into a exiting Project file
-1. Import into an exiting Family.
+1. Import into a existing Project file
+1. Import into an existing Family.
 
 Data in the Rhino file will be translated into Revit based on each of these methods.
 
 ### Importing Rhino files as Directshapes into Project
 
-When importing a 3DM file directly into a project the result will be a single Directshape.  THis is a quick way to bring in geomtery but some with all the limitations of Directshapes. 
+When importing a 3DM file directly into a project the result will be a single Directshape.  This is a quick way to bring in geometry but some with all the limitations of Directshapes. 
 
 On insert there are a number of options:
 
@@ -33,7 +33,7 @@ On insert there are a number of options:
 
 There are two methods:
 
-Use the Layers control to import only the objects tat are on Visible Layers, or import all the geometry in the 3DM file.
+Use the Layers control to import only the objects that are on Visible Layers, or import all the geometry in the 3DM file.
 
 Select the category that the DirectShapes should be created in using the Category dropdown.
 
@@ -49,7 +49,7 @@ Importing Rhino models directly into Family files allows for a bit more flexibil
 
 ![]({{ "/static/images/guides/import-3dm-family.jpg" | prepend: site.baseurl }})
 
-One limitation of a family is that the NURBS geometry. If Revit rejects that NURBS geometry, it will not show up in Revit. most of the time this geometry can be fixed with Rhino with come work.
+One limitation of a family is the NURBS geometry. If Revit rejects that NURBS geometry, it will not show up in Revit. most of the time this geometry can be fixed with Rhino with come work.
 
 When importing into Revit into a family:
 
